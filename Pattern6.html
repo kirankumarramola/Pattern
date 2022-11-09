@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <script>
+            let n=5;
+            let res = "";
+            for(let i=1;i<=n;i++){
+                if(i==1 || i==n){
+                    for(let j=1; j<=10; j++){
+                        res += "*";
+                    }}
+                else {
+                    for(let j=1; j<=10; j++){
+                        if(j==1 || j==10)
+                        res += "*";
+                        else 
+                        res += "&nbsp"+"&nbsp";
+                    }
+                }
+                res += "<br>"
+                }
+            
+            document.write(res);
+        </script>
+    </body>
+</html>
